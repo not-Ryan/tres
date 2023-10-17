@@ -158,8 +158,8 @@ importers:
         version: 4.2.4(vue@3.3.4)
     devDependencies:
       '@tresjs/leches':
-        specifier: ^0.9.1
-        version: 0.9.1(vue@3.3.4)
+        specifier: ^0.12.0
+        version: 0.12.0(vue@3.3.4)
       '@tweakpane/plugin-essentials':
         specifier: ^0.2.0
         version: 0.2.0(tweakpane@4.0.1)
@@ -1276,10 +1276,10 @@ packages:
       - supports-color
     dev: true
 
-  /@tresjs/leches@0.9.1(vue@3.3.4):
-    resolution: {integrity: sha512-LHSkWlSvqZJwjtvObbqVzKmcX9XoxFYyBfg2W65CgYaTzNabZqHYZ05NDPt/SlrGJtaKCsag2ZOcIVYyEVW/iQ==}
+  /@tresjs/leches@0.12.0(vue@3.3.4):
+    resolution: {integrity: sha512-f6mY8StYGk75BIwRNl+CU8IWC+MiVLF0IiB2+7ejcLNhqLjwM0BcbYdg4MXbZ4VAtKSjK90eTlVVx6vZh3USEA==}
     peerDependencies:
-      vue: '>=3.3'
+      vue: '>=3.3.4'
     dependencies:
       '@vueuse/components': 10.4.1(vue@3.3.4)
       vue: 3.3.4
@@ -2046,7 +2046,7 @@ packages:
       '@vueuse/core': 10.4.1(vue@3.3.4)
       '@vueuse/shared': 10.4.1(vue@3.3.4)
       focus-trap: 7.5.2
-      vue-demi: 0.14.5(vue@3.3.4)
+      vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
